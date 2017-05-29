@@ -1,0 +1,1481 @@
+body  {
+	margin: 0;
+	padding: 0;
+}
+#container  {
+	margin: 0;
+  width: 100%;
+	background: #fff;
+}
+div.logo{
+	height: 250px;
+	background-color: #EA1212;
+	border-color: #EA1212;
+	padding-right: 50px;
+	position:relative;
+}
+a:link {
+	text-decoration: none;
+}
+div.logo img.filme {
+  display: block;
+	width: 50%;
+	height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.icones{
+	background-color: #474646;
+	position: absolute;
+	top:18.1em;
+	margin-left: 95.5%;
+	width: 50px;
+	height: 200px;
+}
+div.logo input{
+  border-color: red;
+  color:white;
+  width:30%;
+  height:7%;
+  left:45%;
+  position:relative;
+}
+div.logo a.lupa {
+	background-image: url("lupa.png");
+	border-color: red;
+	position:absolute;
+	width:1.5%;
+	height:9%;
+	left: 71%;
+}
+@media (min-width:720px) {
+div.contatos {
+	margin-left: 80%;
+	margin-top:-2em;
+	left: 5%;
+}
+div.logo div.contatos a.contato {
+  background-color: #EAB412;
+  border-color: #EAB412;
+  color:white;
+	text-decoration: none;
+}
+div.logo div.contatos a.celular {
+	background-image: url("celular.png");
+	border-color: #EAB412;
+	position:absolute;
+	margin-left: 2%;
+	width:30px;
+	height:32px;
+}
+div.menus_topo{
+  position: absolute;
+	text-decoration-color: white;
+	margin-left: 25%;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  top:85%;
+}
+
+div.logo button.contato {
+	margin-top:-2%;
+  background-color: #EAB412;
+  border-color: #EAB412;
+  color:white;
+	font-family:monospace;
+  position:absolute;
+  width:150px;
+  height:26px;
+  left: 80%;
+}
+div.meio{
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	position: absolute;
+  width:100%;
+  background-color: #0768B2;
+  height:42px;
+  margin-top:0%;
+}
+div.meio p{
+  background-color: #0768B2;
+  position: absolute;
+  color:white;
+  width: 2%;
+  height: 1%;
+  font-family: cursive;
+  margin-left:8%;
+  top:0em;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  white-space: nowrap;
+  font-size: 16px;
+  left:5%;
+}
+div.meio a.meio{
+  background-color: #0768B2;
+  position: relative;
+  color:white;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  padding-left:2%;
+  top:1em;
+  font-size: 12px;
+  left:45%;
+  text-decoration: none;
+}
+div.meio a.escolha{
+  background-color: orange;
+  position: relative;
+  color:white;
+  font-family: cursive;
+  margin-left:8%;
+  top:1em;
+  font-size: 12px;
+  left: 40%;
+  text-decoration: none;
+}
+
+div.titulo1{
+	position: absolute;
+  background-color: white;
+  width:70%;
+	left:4.5%;
+	top:20em;
+  height:30px;
+}
+div.titulo {
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  position:relative;
+	width: 50%;
+  height: 22px;
+  left:15%;
+}
+div.link{
+  position:absolute;
+  background-color: white;
+  width:80%;
+  height:80px;
+	top:60px;
+	left:15%;
+}
+div.link a.link1 {
+  color:grey;
+  position:absolute;
+	float: left;
+}
+div.link a.link2 {
+  color:grey;
+  position:absolute;
+	left:4em;
+	float: left;
+}
+div.link p.p1{
+  position:absolute;
+  color:black;
+  top:-20%;
+  left:17em;
+	float: left;
+}
+div.link p.parag{
+  position:absolute;
+  color:grey;
+	float: left;
+}
+div.link p.black{
+  position:absolute;
+  color:black;
+  left:8em;
+	float:left;
+}
+div.menu {
+  background-color: white;
+  position: absolute;
+  top:28em;
+  width:80%;
+  height:40px;
+	left:15%;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	float:left;
+}
+div.menu a.programacao {
+  position:absolute;
+  background-color: #0768B2;
+  color:white;
+  width:150px;
+  height:30px;
+}
+div.menu a.precos {
+  position:absolute;
+  background-color: grey;
+  color:white;
+	margin-left: 15%;
+}
+div.menu a.promocao {
+  position:absolute;
+  background-color: grey;
+  color:white;
+	margin-left: 30%;
+}
+div.menu a.localizacao {
+  position:absolute;
+  background-color: grey;
+  color:white;
+	margin-left: 45%;
+}
+div.data{
+	position:absolute;
+	background-image: url("data.png");
+  top:28em;
+	left:85%;
+}
+div.data p{
+	position:relative;
+  color: grey;
+	top:-1em;
+	white-space:nowrap;
+	left:1.5em;
+}
+div.opcoes{
+  position:absolute;
+  background-color: white;
+  top:30em;
+  width:85%;
+  height:18em;
+	display: block;
+	left: 15%;
+}
+div.opcoes div.autopsia div.imagem1 {
+	position: absolute;
+	left: 69%;
+	width:8em;
+	height:9em;
+}
+div.opcoes div.autopsia div.imagem1 a.img1{
+	position:absolute;
+	background-image: url("buy.png");
+	width:4em;
+	height:4.8em;
+}
+div.opcoes div.autopsia div.imagem1 a.img11{
+	background-image: url("img12.png");
+	position: absolute;
+	left: 50%;
+	width:4em;
+	height:4.8em;
+}
+div.opcoes div.autopsia a.autopsia{
+  position:absolute;
+  background-color:white;
+  color:white;
+  width:70%;
+  height:24%;
+	text-decoration: none;
+}
+
+div.opcoes div.autopsia a.autopsia div{
+  position:absolute;
+  color:grey;
+  top:130%;
+  left:1%;
+
+}
+div.opcoes div.autopsia a.autopsia div.filme1{
+  position:absolute;
+  color:grey;
+  top:130%;
+  left:35%;
+}
+div.opcoes div.autopsia a.autopsia div.leng1{
+  position:absolute;
+  color:grey;
+  top:60%;
+  left:75%;
+}
+div.opcoes div.autopsia a.autopsia div.leng1 p{
+  position:absolute;
+  color:grey;
+  top:30%;
+}
+div.opcoes div.autopsia a.autopsia div.sala1{
+  position:absolute;
+	white-space: nowrap;
+  color:grey;
+  left:110%;
+  top:80%;
+}
+div.opcoes div.autopsia a.autopsia div.sala1 p.hr1{
+  position:absolute;
+  color:grey;
+  top:-45%;
+  left:115%
+}
+div.opcoes div.autopsia a.autopsia div.sala1 p.sala11{
+  position:absolute;
+  color:grey;
+  top:5%;
+  left:0%;
+}
+div.opcoes div.autopsia a.autopsia div.sala1 p.hr11{
+  position:absolute;
+  color:grey;
+  top:5%;
+  left:120%;
+}
+div.opcoes div.cabana a.cabana{
+	position:absolute;
+	color:white;
+	width:70%;
+	height:24%
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+}
+div.opcoes div.cabana a.cabana div{
+  position:absolute;
+  color:grey;
+	top:26%;
+  left: 1%;
+}
+div.opcoes div.cabana a.cabana div.filme2{
+  position:absolute;
+  color:grey;
+  top:26%;
+  left:40%;
+}
+div.opcoes div.cabana a.cabana div.leng2{
+  position:absolute;
+  color:grey;
+  top:20%;
+  left:75%;
+}
+div.opcoes div.cabana a.cabana div.sala2{
+  position:absolute;
+  color:grey;
+  left:110%;
+	white-space: nowrap;
+  top:26%;
+}
+
+div.opcoes div.cabana a.cabana div.sala2 p.hr2{
+  position:absolute;
+  color:grey;
+  top:-70%;
+  left:115%
+}
+
+div.opcoes div.cabana div.imagem2{
+	position: absolute;
+	width:8em;
+	height:8em;
+}
+div.opcoes div.cabana div.imagem2 a.img2{
+  position:absolute;
+	background-image: url("buy.png");
+	width:4em;
+	top:-35%;
+	height:4em;
+}
+div.opcoes div.cabana div.imagem2 a.img22{
+	background-image: url("img12.png");
+	position: absolute;
+	left: 50%;
+	top:-35%;
+	width:4em;
+	height:4em;
+}
+div.opcoes div.alien a.alien{
+	position:absolute;
+  background-color: #E1E1E1;
+	color:white;
+	width:70%;
+	height:24%;
+	left:0;
+  top:50%;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+}
+div.opcoes div.alien div.imagem3{
+	position: absolute;
+	width:8em;
+	height:8em;
+}
+div.opcoes div.alien div.imagem3 a.img3{
+	position:absolute;
+	background-image: url("buy.png");
+	width:4em;
+	top:-35%;
+	height:4em;
+}
+div.opcoes div.alien div.imagem3 a.img33{
+	background-image: url("img16.png");
+	position: absolute;
+	left: 50%;
+	top:-35%;
+	width:4em;
+	height:4em;
+}
+div.opcoes div.alien a.alien div{
+  position:absolute;
+  color:grey;
+  top:-50%;
+  left:1%;
+}
+div.opcoes div.alien a.alien div.filme3{
+  position:absolute;
+  color:grey;
+  top:-160%;
+  left:40%;
+}
+div.opcoes div.alien a.alien img{
+  position:absolute;
+  color:grey;
+	top:-100%;
+  left:118%;
+}
+div.opcoes div.alien a.alien div.leng3{
+  position:absolute;
+  color:grey;
+  top:-140%;
+  left:58%;
+}
+div.opcoes div.alien a.alien div.leng3 p{
+  position:absolute;
+  color:grey;
+  top:28%;
+}
+div.opcoes div.alien a.alien div.sala3{
+  position:absolute;
+  color:grey;
+  left:80%;
+	white-space: nowrap;
+  top:-113%;
+}
+div.opcoes div.alien a.alien div.sala3 p.hr3{
+  position:absolute;
+  color:grey;
+  top:-75%;
+  right:-85%;
+}
+div.opcoes div.alien a.alien div.sala33{
+  position:absolute;
+  color:grey;
+  top:10%;
+	white-space: nowrap;
+  left:80%;
+}
+div.opcoes div.alien a.alien div.sala33 p.hr33{
+  position:absolute;
+  color:grey;
+  left: 105%;
+  top:-70%;
+}
+div.opcoes div.guardioes a.guardioes{
+  position:absolute;
+	left: 0;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  color:white;
+	width:70%;
+  height:24%;
+  top:1%;
+}
+div.opcoes div.guardioes div.imagem4 a.img4{
+  position:relative;
+	background-image: url("buy.png");
+	width:5em;
+  height:24%;
+  left:70%;
+	top:300%;
+}
+div.opcoes div.guardioes div.imagem4 a.img44{
+  position:relative;
+	background-image: url("img12.png");
+	width:5em;
+  height:24%;
+  left:69.5%;
+	top:300%;
+}
+div.opcoes div.guardioes a.guardioes div{
+  position:absolute;
+	width: 25%;
+	height: 2%;
+  color:grey;
+  top:38%;
+  left:1%;
+}
+div.opcoes div.guardioes a.guardioes img{
+  position:absolute;
+  color:grey;
+  top:100%;
+  left:30%;
+}
+div.opcoes div.guardioes a.guardioes div.filme4{
+  position:absolute;
+  color:grey;
+  top:50%;
+  left:45%;
+}
+div.opcoes div.guardioes a.guardioes div.leng4{
+  position:absolute;
+  color:grey;
+  top:50%;
+  left:70%;
+}
+div.opcoes div.guardioes a.guardioes div.leng4 p{
+  position:absolute;
+  color:grey;
+  top:28%;
+}
+div.opcoes div.guardioes a.guardioes div.sala4{
+  position:absolute;
+  color:grey;
+  left:95%;
+  top:45%;
+}
+div.opcoes div.guardioes a.guardioes div.sala4 p.hr4{
+  position:absolute;
+  color:grey;
+  top:-1em;
+  left:50%;
+}
+div.opcoes div.guardioes a.guardioes div.sala44{
+  position:absolute;
+  color:grey;
+  top:150%;
+  left:95%;
+}
+div.opcoes div.guardioes a.guardioes div.sala44 p.hr44{
+  position:absolute;
+  color:grey;
+  top:-1em;
+  left:50%;
+}
+div.opcoes div.poderoso a.poderoso{
+  position:absolute;
+  background-color:white;
+	left: 0;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  color:white;
+	width:70%;
+  height:24%;
+  top:100%;
+}
+div.opcoes div.poderoso a.img5{
+  position:relative;
+	background-image: url("buy.png");
+	width:5em;
+  height:24%;
+  left:70%;
+	top:400%;
+}
+div.opcoes div.poderoso a.img55{
+  position:relative;
+	background-image: url("imgl.png");
+	width:5em;
+  height:24%;
+  left:69.5%;
+	top:400%;
+}
+div.opcoes div.poderoso a.poderoso div{
+  position:absolute;
+  color:grey;
+  top:38%;
+  left:1%;
+	width: 25%;
+	height: 30%;
+}
+div.opcoes div.poderoso a.poderoso div.filme5{
+  position:absolute;
+  color:grey;
+  top:100%;
+  left:40%;
+}
+div.opcoes div.poderoso a.poderoso div.leng5{
+  position:absolute;
+  color:grey;
+  top:100%;
+  left:70%;
+}
+div.opcoes div.poderoso a.poderoso div.leng5 p{
+  position:absolute;
+  color:grey;
+  top:28%;
+}
+div.opcoes div.poderoso a.poderoso div.sala5{
+  position:absolute;
+  color:grey;
+  left:95%;
+  top:100%;
+}
+div.opcoes div.poderoso a.poderoso div.sala5 p.hr5{
+  position:absolute;
+  color:grey;
+  top:-275%;
+  left:50%
+}
+div.opcoes div.poderoso a.poderoso div.sala5 p.sala55{
+  position:absolute;
+  color:grey;
+  top:100%;
+  left:0%;
+}
+div.opcoes div.poderoso a.poderoso div.sala5 p.hr55{
+  position:absolute;
+  color:grey;
+  top:105%;
+  left:50%;
+}
+div.opcoes a.rock{
+  position:absolute;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  background-color:white;
+	left: 0;
+  color:white;
+	width:70%;
+  height:24%;
+  top:125%;
+}
+div.opcoes a.img6{
+  position:relative;
+	background-image: url("buy.png");
+	width:5em;
+  height:24%;
+  left:70%;
+	top:500%;
+}
+div.opcoes a.img66{
+  position:relative;
+	background-image: url("imgl.png");
+	width:5em;
+  height:24%;
+  left:69.5%;
+	top:500%;
+}
+div.opcoes a.rock div{
+  position:absolute;
+  color:grey;
+  top:-40%;
+  left:1%;
+	width: 25%;
+	height: 30%;
+}
+div.opcoes a.rock div.filme6{
+  position:absolute;
+  color:grey;
+  top:26%;
+  left:40%;
+}
+div.opcoes a.rock div.leng6{
+  position:absolute;
+  color:grey;
+  top:10%;
+  left:70%;
+}
+div.opcoes a.rock div.leng6 p{
+  position:absolute;
+  color:grey;
+  top:28%;
+}
+div.opcoes a.rock div.sala6{
+  position:absolute;
+  color:grey;
+  left:95%;
+  top:13%;
+}
+div.opcoes a.rock div.sala6 p.hr6{
+  position:absolute;
+  color:grey;
+  top:-300%;
+  left:50%;
+}
+div.opcoes a.velozes{
+  position:absolute;
+  background-color:white;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	left: 0;
+  color:white;
+	width:70%;
+  height:24%;
+  top:150%;
+}
+div.opcoes a.img7{
+  position:relative;
+	background-image: url("buy.png");
+	width:5em;
+  height:24%;
+  left:70%;
+	top:600%;
+}
+div.opcoes a.img77{
+  position:relative;
+	background-image: url("img14.png");
+	width:5em;
+  height:24%;
+  left:69.5%;
+	top:1000%;
+}
+div.opcoes a.velozes div{
+  position:absolute;
+  color:grey;
+  top:38%;
+  left:1%;
+	width: 25%;
+	height: 30%;
+}
+div.opcoes a.velozes img{
+  position:absolute;
+  color:grey;
+  top:100%;
+  left:30%;
+}
+div.opcoes a.velozes div.filme7{
+  position:absolute;
+  color:grey;
+  top:100%;
+  left:45%;
+}
+div.opcoes a.velozes div.leng7{
+  position:absolute;
+  color:grey;
+  top:100%;
+  left:70%;
+}
+div.opcoes a.velozes div.leng7 p{
+  position:absolute;
+  color:grey;
+  top:28%;
+}
+div.opcoes a.velozes div.sala7{
+  position:absolute;
+  color:grey;
+  left:95%;
+  top:13%;
+}
+div.opcoes a.velozes div.sala7 p.hr7{
+  position:absolute;
+  color:grey;
+  top:-290%;
+  left:50%
+}
+div.fim_menu {
+	position: absolute;
+	width: 70%;
+  top:61em;
+	left: 15%;
+  background: #777777;
+}
+div.fim_menu p {
+	color:white;
+}
+div.fim_menu p.para2 {
+	position: absolute;
+	color:white;
+	top:20%;
+}
+div.informacoes {
+	position:absolute;
+	left:15%;
+	top:67em;
+	max-width:48%;
+	height:430px;
+}
+div.informacoes p.text1{
+	color:blue;
+	left:15%;
+}
+div.informacoes p.text2{
+	left:15%;
+}
+div.informacoes p.text3{
+	color:blue;
+	left:15%;
+}
+div.informacoes p.text4{
+	left:15%;
+}
+div.informacoes a{
+	left:15%;
+	background-color: orange;
+	color:white;
+	width: 500px;
+	height:30px;
+}
+div.informativos {
+	position:absolute;
+	top:66em;
+	margin-left:62.7%;
+	height:40%;
+	width:20%;
+}
+div.informativos p{
+  text-align: center;
+	color:blue;
+}
+div.informativos a.informa1{
+	background-color: orange;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+div.informativos a.informa2{
+	width:270%;
+	top:7em;
+	background-color: orange;
+	color: white;
+	height:20%;
+	text-align: center;
+	text-decoration: none;
+}
+div.informativos a.informa3{
+	width:270%;
+	top:11em;
+	background-color: orange;
+	color: white;
+	height: 20%;
+	text-align: center;
+	text-decoration: none;
+}
+div.mapa_site{
+	position:absolute;
+	background-color:#F5F1F1;
+	top: 105em;
+	width: 100%;
+	height: 200px;
+}
+div.mapa_site p.mapa{
+	position: absolute;
+	top: 2em;
+	left: 15%;
+	color: red;
+}
+div.mapa_site p.text{
+	position: absolute;
+	top: 2em;
+	left: 65%;
+	color: red;
+}
+div.mapa_site input{
+	position: absolute;
+	top: 3.5em;
+	left: 80%;
+}
+div.mapa_site a.ok{
+	background-image: url("ok.png");
+	position: absolute;
+	width: 32px;
+	height: 28px;
+	top: 3em;
+	left: 95%;
+
+}
+
+div.conteudo a:link {
+	text-decoration: none;
+}
+
+div.mapa_site div.conteudo div.coluna1 {
+	position:absolute;
+	margin-top: 5em;
+	left: 15%;
+	width: 12%;
+	height: 2%;
+	color:black;
+}
+div.mapa_site div.conteudo div.coluna2 {
+	position:absolute;
+	margin-top: 5em;
+	width: 12%;
+	height: 2%;
+	left: 30%;
+}
+div.mapa_site div.conteudo div.coluna3 {
+	position:absolute;
+	margin-top: 6em;
+	width: 12%;
+	height: 2%;
+	left: 45%;
+}
+div.mapa_site div.conteudo div.coluna4 {
+	position:absolute;
+	margin-top:-3em;
+	left:100%;
+	width: 12%;
+	height: 2%;
+	white-space: nowrap;
+}
+div.mapa_site div.conteudo div.coluna5 {
+	position:absolute;
+	margin-top:-4.3em;
+	left: 900%;
+	width: 12%;
+	height: 2%;
+}
+div.mapa_site div.conteudo div.coluna6 {
+	position:absolute;
+	width: 12%;
+	margin-top:-4.3em;
+	height: 2%;
+	left: 1900%;
+}
+}
+@media (min-width: 1000px){
+	body{
+
+	}
+}
+
+div.logo img.cine {
+	display: block;
+	width: 25%;
+	height: 20%;
+	margin-top: 5%;
+	margin-left:15%;
+}
+
+div.logo a.contato {
+	background-color: #EAB412;
+	border-color: #EAB412;
+	color:white;
+	font-size: 16px;
+}
+@media (min-width: 200px) {
+div.logo a.celular {
+	background-image: url("celular.png");
+	border-color: #EAB412;
+	position:absolute;
+	width:32px;
+	height:32px;
+	top:55%;
+	right:5em;
+	}
+}
+div.logo a.lupa {
+	background-image: url("lupa.png");
+	border-color: red;
+	position:absolute;
+	width:22px;
+	height:9%;
+	left: 71%;
+}
+div.menus_topo{
+	color:white;
+}
+div.menus_topo a.menu{
+	color:white;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 2%;
+}
+div.meio{
+	position: absolute;
+	width: 100%;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	background-color: #0768B2;
+}
+div.meio p{
+	background-color: #0768B2;
+	color:white;
+	width: 2%;
+	height: 1%;
+	white-space: nowrap;
+	font-size: 16px;
+}
+div.meio a.meio{
+	background-color: #0768B2;
+	color: white;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	white-space: nowrap;
+	font-size: 12px;
+	text-decoration: none;
+}
+div.meio a.escolha{
+	background-color: orange;
+	color:white;
+	margin-left:8%;
+	white-space: nowrap;
+	font-size: 12px;
+	text-decoration: none;
+}
+div.titulo1{
+	background-color: white;
+}
+div.titulo {
+	font-family: arial, helvetica, sans-serif;
+}
+div.link{
+	background-color: white;
+}
+div.link a.link1 {
+	color:grey;
+}
+div.link a.link2 {
+	color:grey;
+}
+div.link p.p1{
+	color:black;
+}
+div.link p.parag{
+	color:grey;
+}
+div.link p.black{
+	color:black;
+}
+div.icones a.face {
+	background-image: url("face.png");
+	position: absolute;
+	left: 35%;
+	top:1em;
+	width:22%;
+	height:8%;
+}
+div.icones a.twitter {
+	background-image: url("twitter.png");
+	position: absolute;
+	left: 35%;
+	top:3em;
+	width:35%;
+	height:7%;
+}
+div.icones a.instagram {
+	background-image: url("instagram.png");
+	position: absolute;
+	left: 35%;
+	top:5em;
+	width:35%;
+	height:8%;
+}
+div.icones a.plus {
+	background-image: url("plus.png");
+	position: absolute;
+	left: 35%;
+	top:7em;
+	width:22%;
+	height:8%;
+}
+div.icones a.youtube {
+	background-image: url("youtube.png");
+	position: absolute;
+	left: 35%;
+	top:9em;
+	width:35%;
+	height:9%;
+}
+div.icones a.pinte {
+	background-image: url("pinte.png");
+	position: absolute;
+	left: 35%;
+	top:10.5em;
+	width:37%;
+	height:9%;
+}
+div.data{
+	position:absolute;
+	background-image: url("data.png");
+	top:27em;
+	width:23px;
+	height:23px;
+	left:70%;
+
+}
+div.data p{
+	position:relative;
+	color: grey;
+	top:-1em;
+	white-space:nowrap;
+	left:1.5em;
+}
+div.menu a.programacao {
+	background-color: #0768B2;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	width:15%;
+	height:75%;
+	border: 1px solid #FFFFFF;
+}
+div.menu a.precos {
+	background-color: grey;
+	color:white;
+	border-color: white;
+	text-decoration: none;
+	text-align: center;
+	width:15%;
+	height:75%;
+	border: 1px solid #FFFFFF;
+	}
+
+	div.menu a.promocao {
+	background-color: grey;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	width:15%;
+	height:75%;
+	border: 1px solid #FFFFFF;
+	}
+	div.menu a.localizacao {
+	background-color: grey;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	width:15%;
+	height:75%;
+	border: 1px solid #FFFFFF;
+}
+
+div.opcoes div.autopsia{
+	position: relative;
+	width: 70%;
+	height: 23.8%;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	background-color: #E1E1E1;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes div.autopsia a.autopsia{
+	color:white;
+	background-color: #E1E1E1;
+	text-decoration: none;
+}
+div.opcoes  div.autopsia a.autopsia div{
+	color:grey;
+	text-decoration: none;
+}
+div.opcoes div.autopsia div.imagem1{
+	position: absolute;
+	left: 98%;
+	width:8em;
+	height:2em;
+}
+div.opcoes div.autopsia div.imagem1 a.img1{
+	position:absolute;
+	border: 1px solid #FFFFFF;
+	background-image: url("buy.png");
+	left: 10%;
+	width:4.5em;
+	height:4.4em;
+}
+div.opcoes div.autopsia div.imagem1 a.img11{
+	background-image: url("img14.png");
+	position: absolute;
+	border: 1px solid #FFFFFF;
+	left: 60%;
+	width:4em;
+	height:4.4em;
+}
+div.opcoes  div.cabana {
+	position: relative;
+	width: 69.8%;
+	height: 23.8%;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	background-color: #E1E1E1;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes  div.cabana a.cabana{
+	background-color: #E1E1E1;
+	color:white;
+}
+div.opcoes div.cabana div.imagem2{
+	position: absolute;
+	left:98.5%;
+	width:8em;
+	height:3em;
+
+}
+div.opcoes  div.cabana div.imagem2 a.img2{
+	background-image: url("buy.png");
+	position: absolute;
+	top:4%;
+	margin-left: 9%;
+	width:4em;
+	height:4.2em;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes  div.cabana div.imagem2 a.img22{
+	background-image: url("img12.png");
+	position: absolute;
+	top:4%;
+	left: 60%;
+	width:4em;
+	height:4.2em;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes  div.alien {
+	position: relative;
+	width: 69.8%;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	height: 23.8%;
+	background-color: #E1E1E1;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes  div.alien a.alien{
+	background-color: #E1E1E1;
+	color:white;
+}
+div.opcoes div.alien div.imagem3{
+	position: absolute;
+	left:98.5%;
+	width:8em;
+	height:3em;
+}
+div.opcoes div.alien div.imagem3 a.img3{
+	background-image: url("buy.png");
+	position: absolute;
+	margin-left: 9%;
+	border: 1px solid #FFFFFF;
+	width:4em;
+	height:4.2em;
+	top:1%;
+}
+div.opcoes div.alien div.imagem3 a.img33{
+	background-image: url("img12.png");
+	position: absolute;
+	left: 60%;
+	width:4em;
+	top:1%;
+	height:4.2em;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes div.guardioes {
+	position: relative;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	width: 69.8%;
+	height: 25%;
+	background-color: #E1E1E1;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes  div.guardioes a.guardioes{
+	background-color: #E1E1E1;
+	color:white;
+}
+div.opcoes div.guardioes div.imagem4{
+	position: absolute;
+	left:98.5%;
+	width:8em;
+	height:3em;
+}
+div.opcoes div.guardioes div.imagem4 a.img4{
+	background-image: url("buy.png");
+	position: absolute;
+	border: 1px solid #FFFFFF;
+	left: 9%;
+	top:-5%;
+	width:4em;
+	height:4.7em;
+}
+div.opcoes div.guardioes div.imagem4 a.img44{
+	background-image: url("img16.png");
+	position: absolute;
+	left: 60%;
+	top:-5%;
+	border: 1px solid #FFFFFF;
+	width:4em;
+	height:4.7em;
+}
+div.opcoes  div.poderoso{
+	position: relative;
+	width: 69.8%;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	height: 25%;
+	background-color: #E1E1E1;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes  div.poderoso a.poderoso{
+	background-color:#E1E1E1;
+	color:white;
+	top:2%;
+}
+div.opcoes div.poderoso div.imagem5{
+	position: absolute;
+	left:98.5%;
+	width:8em;
+	height:3em;
+}
+div.opcoes div.poderoso div.imagem5 a.img5{
+	background-image: url("buy.png");
+	position: absolute;
+	left: 9%;
+	border: 1px solid #FFFFFF;
+	background-color:#E1E1E1;
+	top:-1%;
+	width:4em;
+	height:4.5em;
+}
+div.opcoes div.poderoso div.imagem5 a.img55{
+	background-image: url("img16.png");
+	position: absolute;
+	background-color:#E1E1E1;
+	border: 1px solid #FFFFFF;
+	left: 60%;
+	top:-1%;
+	width:4em;
+	height:4.5em;
+}
+div.opcoes div.rock {
+	position: relative;
+	font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	width: 69.8%;
+	height: 25%;
+	background-color: #E1E1E1;
+	border: 1px solid #FFFFFF;
+}
+div.opcoes  div.rock a.rock{
+	background-color: #E1E1E1;
+	color:white;
+	top:20%;
+}
+div.opcoes div.rock div.imagem6{
+	position: absolute;
+	left:98.5%;
+	width:8em;
+	height:3em;
+}
+div.opcoes div.rock div.imagem6 a.img6{
+	background-image: url("buy.png");
+	position: absolute;
+	border: 1px solid #FFFFFF;
+	left: 9%;
+	top:-3%;
+	width:4em;
+	height:4.8em;
+}
+div.opcoes div.rock div.imagem6 a.img66{
+	background-image: url("img16.png");
+	border: 1px solid #FFFFFF;
+	position: absolute;
+	left: 60%;
+	width:4em;
+	top:-3%;
+	height:4.8em;
+}
+div.opcoes  div.velozes {
+	position: relative;
+	width: 69.8%;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+	height: 25%;
+	background-color: #E1E1E1;
+	border: 1px solid #FFFFFF;
+
+}
+div.opcoes  div.velozes a.velozes{
+	background-color:#E1E1E1;
+	color:white;
+	top:1%;
+}
+div.opcoes div.velozes div.imagem7{
+	position: absolute;
+	left:98.5%;
+	width:8em;
+	height:3em;
+}
+div.opcoes div.velozes div.imagem7 a.img7{
+	background-image: url("buy.png");
+	position: absolute;
+	border: 1px solid #FFFFFF;
+	left: 9%;
+	top:-38%;
+	width:4em;
+	height:4em;
+}
+div.opcoes div.velozes div.imagem7 a.img77{
+	background-image: url("img16.png");
+	top:-38%;
+	border: 1px solid #FFFFFF;
+	position: absolute;
+	left: 60%;
+	width:4em;
+	height:4em;
+}
+div.fim_menu {
+	background: #777777;
+	width: 70%;
+	height: 10%;
+}
+div.fim_menu p {
+	color:white;
+}
+div.fim_menu p.para2 {
+	color:white;
+}
+div.informativos p{
+	text-align: center;
+	color:blue;
+}
+div.informativos a.informa1{
+	background-color: orange;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	width:100%;
+	height:705%;
+	border: 1px solid #FFFFFF;
+}
+div.informativos a.informa2{
+	background-color: orange;
+	color: white;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+div.informativos a.informa3{
+	background-color: orange;
+	color: white;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	width:270em;
+	height: 10em;
+}
+div.informacoes p.text1{
+	color:blue;
+}
+div.informacoes p.text2{
+}
+div.informacoes p.text3{
+	color:blue;
+}
+div.informacoes p.text4{
+}
+div.informacoes a{
+	background-color: orange;
+	color:white;
+}
+div.conteudo a:link {
+	text-decoration: none;
+}
+div.conteudo div.img {
+	background-image: url("imgfinal.png");
+	position: absolute;
+	width:115px;
+	height:20px;
+	margin-left: 90%;
+	margin-top:10em;
+}
+div.mapa_site p.mapa{
+	color: red;
+}
+div.mapa_site p.text{
+	color: red;
+}
+div.mapa_site div.conteudo div.coluna1 a {
+	color: black;
+}
+div.mapa_site div.conteudo div.coluna2 a{
+	 color: black;
+}
+div.mapa_site div.conteudo div.coluna3 a{
+	 color: black;
+}
+div.mapa_site div.conteudo div.coluna4 a{
+	 color: black;
+	white-space: nowrap;
+}
+div.mapa_site div.conteudo div.coluna5 a{
+	 color: black;
+}
+div.mapa_site div.conteudo div.coluna6 a{
+	 color: black;
+	 width: 12%;
+	 height: 2%;
+}
+div.mapa_site a.ok{
+	background-image: url("ok.png");
+	position: absolute;
+	width: 32px;
+	height: 28px;
+	margin-top: 0em;
+	left: 93%;
+
+}
